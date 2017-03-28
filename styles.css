@@ -1,0 +1,40 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.container{
+  background-color: #ffffff;
+  height: 2000px;
+}
+
+#page-wrap {
+  width: 9000px;
+  margin: auto;
+}
+
+#banner {
+  width: 9000px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.center-form {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+#results {
+  margin-left: -30px;
+  margin-top: 40px;
+}
+
+.little{
+  width: 40px;
+  height: 40px;
+}
