@@ -4,7 +4,8 @@ body {
 
 .container{
   background-color: #ffffff;
-  height: 2000px;
+  height: 2650px;
+  border-radius: 5px;
 }
 
 #page-wrap {
@@ -13,7 +14,7 @@ body {
 }
 
 #banner {
-  width: 9000px;
+  width: 9040px;
   height: 200px;
   border-radius: 10px;
 }
@@ -27,6 +28,14 @@ body {
 
 li {
   list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin: 3px;
+  border-color: #e5e5e5;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
 }
 
 #results {
@@ -37,4 +46,5 @@ li {
 .little{
   width: 40px;
   height: 40px;
+  border-radius: 5px;
 }
