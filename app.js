@@ -33,11 +33,10 @@ $(document).ready(function() {
     $("#results").empty();
     var html = "";
     for (var i=0; i<data.items.length; i++) {
-      html += `<li> <image src="${data.items[i].snippet.thumbnails.high.url}"class= "image-responsive little"> ${data.items[i].snippet.title} </li>`;
-
-
+      html += `<li><a target="_blank" href="https://www.youtube.com/embed/${data.items[i].id.videoId}">
+        <image src="${data.items[i].snippet.thumbnails.high.url}" class="image-responsive little">
+        ${data.items[i].snippet.title} </a></li>`;
     }
     $("#results").append(html);
   }
-
 });
